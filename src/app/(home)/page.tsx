@@ -6,7 +6,7 @@ import { ClientPage } from "./client";
 
 export default async function HomePage() {
   void trpc.hello.prefetch({
-    text: "Laxmi",
+    text: "Bishal",
   });
   return (
     <HydrateClient>
